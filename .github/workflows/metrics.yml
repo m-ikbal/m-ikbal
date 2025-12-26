@@ -21,11 +21,18 @@ jobs:
           # Ayarlar
           user: m-ikbal
           template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Istanbul
+          
+          # --- ÖNEMLİ DEĞİŞİKLİK BURADA ---
+          # Kalabalık yapan activity, community, repositories, metadata kısımlarını sildim.
+          # Sadece 'header' bıraktım. Bu, üstteki o katkı barını ve profil özetini tutar.
+          base: header 
+          
+          # config_timezone: Europe/Istanbul
           
           # Hangi verileri saysın?
           committer_token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Diller (Languages) kısmı - Aynen korundu
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
