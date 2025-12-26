@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Her gün gece yarısı çalışır
   schedule: [{cron: "0 0 * * *"}]
-  # İstersen manuel tetiklemek için
   workflow_dispatch:
-  # Ana dala (main veya master) her push yaptığında çalışır
   push: {branches: ["main", "master"]}
 
 jobs:
@@ -15,31 +12,20 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token'ı secret'tan çeker
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Ayarlar
-          # user: m-ikbal
+          user: m-ikbal
           template: classic
           
-          # --- ÖNEMLİ DEĞİŞİKLİK BURADA ---
-          # Kalabalık yapan activity, community, repositories, metadata kısımlarını sildim.
-          # Sadece 'header' bıraktım. Bu, üstteki o katkı barını ve profil özetini tutar.
-          base: header 
+          base: ""
           
-          # config_timezone: Europe/Istanbul
+          config_timezone: Europe/Istanbul
           
-          # Hangi verileri saysın?
-          committer_token: ${{ secrets.METRICS_TOKEN }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year 
           
-          # Diller (Languages) kısmı - Aynen korundu
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-            
-          # DİKKAT: Burası önemli, private repoları sayması için:
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           repositories_affiliations: owner, collaborator, organization_member
           
-          # Çıktı dosyasının adı
           filename: github-metrics.svg
