@@ -31,14 +31,14 @@ jobs:
       - name: List files
         run: ls -lh
 
-      - name: Convert SVG to PNG
-        run: |
+      - name: Convert SVG to PNG (Inkscape)
+        run: | 
           sudo apt-get update
-          sudo apt-get install -y librsvg2-bin
-          rsvg-convert github-metrics.svg \
-            -w 1200 \
-            -b "#0d1117" \
-            -o github-metrics.png
+          sudo apt-get install -y inkscape
+          inkscape github-metrics.svg \
+            --export-type=png \
+            --export-filename=github-metrics.png \
+            --export-width=1200
 
       - name: Commit PNG
         run: |
