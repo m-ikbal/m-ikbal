@@ -39,6 +39,7 @@ jobs:
             --export-type=png \
             --export-filename=github-metrics.png \
             --export-width=1200
+            --export-text-to-path
 
       - name: Commit PNG
         run: |
