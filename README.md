@@ -25,9 +25,5 @@
 </table>
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m-ikbal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-ikbal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="languages graph" />
-</div>
-<div align="center">
   <img src="https://metrics.lecoq.io/m-ikbal?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&isocalendar.duration=half-year&languages=1" alt="Metrics" />
 </div>
