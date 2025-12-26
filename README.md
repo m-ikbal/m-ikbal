@@ -13,9 +13,6 @@
 
 <br/>
 
-<div align="center">
-  Merhaba! 👋 Ben kod yazmayı sistem yönetimiyle birleştiren, ölçeklenebilir altyapılar ve temiz backend kodları üzerine çalışan bir geliştiriciyim.
-</div>
 
 <br/>
 
@@ -23,7 +20,7 @@
   <tr>
     <td align="center" width="50%">
       <h3>🚀 Backend & Software</h3>
-      <img src="https://skillicons.dev/icons?i=python,fastapi,django,postgres,sqlite,git,cs,js&theme=dark&perline=4" alt="Software Skills" />
+      <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,sqlite,git,cs,js&theme=dark&perline=4" alt="Software Skills" />
     </td>
     <td align="center" width="50%">
       <h3>☁️ Infrastructure & DevOps</h3>
@@ -31,13 +28,6 @@
     </td>
   </tr>
 </table>
-
-<h3 align="center">🛠️ Teknoloji Yığını & Araçlar</h3>
-<p align="center">
-  <b>Backend:</b> Python (FastAPI, Django), C#, SQL<br>
-  <b>System:</b> Linux Administration, Bash Scripting, Networking (TCP/IP)<br>
-  <b>DevOps:</b> Docker, CI/CD (GitHub Actions), Nginx
-</p>
 
 <br/>
 
