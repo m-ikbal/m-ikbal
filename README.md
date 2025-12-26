@@ -24,5 +24,5 @@
 </table>
 <br/>
 <div align="center">
-  <img src="https://metrics.lecoq.io/m-ikbal?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&isocalendar.duration=half-year&languages=1&config.theme=dark" alt="Metrics" />
+  <img src="./github-metrics.svg" alt="Metrics" />
 </div>
