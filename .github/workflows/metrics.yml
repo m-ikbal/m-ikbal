@@ -16,6 +16,7 @@ jobs:
           
           user: m-ikbal
           template: classic
+          theme: dark
           
           base: ""
           
