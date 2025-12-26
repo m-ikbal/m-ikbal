@@ -11,32 +11,28 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/checkout@v4
+
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
           user: m-ikbal
           template: classic
           theme: dark
-
           base: ""
-
           config_timezone: Europe/Istanbul
-
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year 
-
+          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           repositories_affiliations: owner, collaborator, organization_member
-
           filename: github-metrics.svg
 
       - name: Convert SVG to PNG
         run: |
           sudo apt-get update
           sudo apt-get install -y librsvg2-bin
-          rsvg-convert github-metrics.svg \
+          rsvg-convert metrics/github-metrics.svg \
             -w 1200 \
             -b "#0d1117" \
             -o github-metrics.png
