@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           
           # Ayarlar
-          user: m-ikbal
+          # user: m-ikbal
           template: classic
           
           # --- ÖNEMLİ DEĞİŞİKLİK BURADA ---
