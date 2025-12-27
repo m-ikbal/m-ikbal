@@ -28,5 +28,5 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-ikbal&layout=compact&theme=dark" alt="Top Languages" />
+  <img src="./github-metrics.svg" alt="Top Languages" />
 </div>
