@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=33CCFF&center=true&vCenter=true&width=600&lines=Software+Developer+%7C+IT+Administrator;Backend+%7C+Infrastructure+%7C+Networking;Python+%7C+Linux+%7C+DevOps;Clean+Code+%7C+Scalable+Systems" alt="Typing SVG" />
 </div>
+
 <div align="center">
   <a href="https://www.linkedin.com/in/m-ikb4l/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
@@ -9,11 +10,8 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
   </a>
 </div>
-<div>
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=m-ikbal&layout=compact&theme=dark)
-</div>
 <br/>
-<br/>
+
 <table align="center">
   <tr>
     <td align="center" width="50%">
@@ -26,7 +24,9 @@
     </td>
   </tr>
 </table>
+
 <br/>
+
 <div align="center">
-  <img src="./github-metrics.svg" alt="Metrics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-ikbal&layout=compact&theme=dark" alt="Top Languages" />
 </div>
