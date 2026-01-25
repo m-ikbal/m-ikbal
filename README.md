@@ -24,9 +24,3 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <img src="./github-metrics.svg" alt="Top Languages" />
-</div>
