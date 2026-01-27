@@ -9,7 +9,7 @@
   <a href="mailto:muhamemedikballac@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
   </a>
-  <a href="https://medium.com/@ikb4l_">
+  <a href="https://medium.com/@ikb4l_" target="_blank">
   <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/>
 </a>
 </div>
