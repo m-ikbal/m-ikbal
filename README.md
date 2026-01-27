@@ -19,7 +19,7 @@
   <tr>
     <td align="center" width="50%">
       <h3>🚀 Backend & Software</h3>
-      <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,sqlite,git,cs,js&theme=dark&perline=4" alt="Software Skills" />
+      <img src="https://skillicons.dev/icons?i=python,cs,js,git,mssql,postgres,sqlite,fastapi,django&theme=dark&perline=4" alt="Software Skills" />
     </td>
     <td align="center" width="50%">
       <h3>☁️ Infrastructure & DevOps</h3>
