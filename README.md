@@ -51,7 +51,7 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app/?username=m-ikbal&theme=dracula&no-frame=true&margin-w=10&margin-h=10" alt="trophy graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=m-ikbal&show_icons=true&theme=dracula" height="150" />
 </div>
 
 ###
