@@ -8,6 +8,10 @@
   <a href="https://www.linkedin.com/in/m-ikb4l/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
+  
+  <a href="https://ikb4l.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Website&logo=google-chrome&label=&color=000000&logoColor=white&style=for-the-badge" height="25" alt="website logo" />
+  </a>
 
   <a href="https://dev.to/DEVTO_URL" target="_blank">
     <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="devto logo" />
