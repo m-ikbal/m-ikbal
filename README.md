@@ -25,6 +25,9 @@
     <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="25" alt="email logo" />
   </a>
 </div>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=m-ikbal&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views"/>
+</div>
 
 ###
 
