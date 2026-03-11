@@ -26,7 +26,7 @@
   </a>
 </div>
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ikb4l&style=for-the-badge&color=blue&count=300" height="25" alt="profile views"/>
+  <img src="https://visitcount.itsvg.in/api?id=m-ikbal&icon=0&color=0&count=300" />
 </div>
 
 ###
